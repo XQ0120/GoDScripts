@@ -8,46 +8,7 @@
 秒秒币
 一天签到100币左右，100币可兑换1毛钱红包，推荐攒着配合农场一起用
 活动时间：长期活动
-更新地址：https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js
 
-
-特鲁多在乔治·布朗学院的演讲
-文章来源：未知 文章作者：enread 发布时间：2017-04-27 08:05 字体： [大 中 小]　 进入论坛
-(单词翻译:双击或拖选)
-Good morning, everyone. Thank you for coming out today.
- 
-Yesterday, as you all know, was the launch of our 2017 budget, and I'd like to say a few words about that before I take your questions.
- 
-We've delivered a budget that takes a realistic look at the challenges ahead. It reflects not only the financial realities but also the personal anxieties that so many Canadians are feeling, especially those in the middle class and those working hard to join it. I see a few of you smiling back there. You've heard me refer to the middle class before, perhaps. Maybe you think, as some of our critics have said, that this is just politicking1, just a slogan. And I want to tell you today, it's not just a slogan. These are real people we're talking about. Millions of Canadians who work hard, who struggle, who worry about their children and their parents and their livelihoods2 and who frankly3 need a break.
- 
-You might recall that I spent much of January on the road, meeting with Canadians in their communities. And one thing I heard over and over is that Canadians are worried about their future, their job opportunities, being able to pay their bills at the end of every month - expenses are increasing but their salaries are not.
- 
-In every community I visited, I met parents who worry about the kinds of opportunities their kids have or will not have when they graduate from school. That's what working Canadians - middle-class Canadians - are focused on and that's what we've focused on in this budget. To suggest that it's just politics does our fellow citizens a disservice. To dismiss their legitimate4 worries as mere5 feelings, even more so.
- 
-You can't spend any amount of time with Canadians, listen to them, actually hear them, and walk away thinking those feelings don't matter. They matter a lot to me, and to our government.
- 
-The level of confidence that Canadians have in their economic future is important, especially when it comes to getting a new job, making an offer on a house or buying a new car. As we celebrate our successes, we must also recognize that there are still many Canadians who are concerned about losing ground rather than getting ahead. Budget 2017 is focused on people, what they need to feel confident about their future. It gives Canadians the tools they need to build a better life for themselves, for their children and for their grandchildren.
- 
-That starts with making sure every Canadian can get the training they need to get a good, well-paying job. That's why Budget 2017 includes things like better support for lifelong learning. If you're unemployed6 or under-employed, this budget will give you better access to the training and financial support that can help you keep… find and keep a good job, including giving you the chance to go back to school without the fear of losing the EI benefits you need to put food on the table. If you currently have a job, but you want to go back to school part-time to upgrade your skills or get a new certification, this budget makes it easier for you to access Canada's Student Grants and Canada's Student Loans. If you're a student with a family to support, this budget makes it more affordable7 for you to improve your qualifications. As many as 13,000 students with dependent children will qualify for student grants under Budget 2017. And if you're a working adult who wants to get a new degree, diploma, or certificate like the ones offered here at George Brown, there's help for you, too. We're introducing a pilot project to look at new ways to make sure that Canada's Student Loans and Grants are more accessible so that your education can become more affordable.
- 
-Budget 2017 is, above all else, an investment in Canadians, an investment in people. Canada is home to some of the smartest, hardworking and most ambitious people in the world. With this budget, we are helping8 Canadians realize their dreams of a brighter, more secure future, and we'll all be better-off for it.
-
-
-
-============Quantumultx===============
-[task_local]
-#京东秒秒币
-10 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true
-
-================Loon==============
-[Script]
-cron "10 7 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js,tag=京东秒秒币
-
-===============Surge=================
-京东秒秒币 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js
-
-============小火箭=========
-京东秒秒币 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js, cronexpr="10 7 * * *", timeout=200, enable=true
  */
 const $ = new Env('京东秒秒币');
 
