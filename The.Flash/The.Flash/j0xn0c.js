@@ -231,7 +231,9 @@ function requireConfig() {
             if (process.env.JD_DEBUG && process.env.JD_DEBUG === 'false') console.log = () => {
             };
         } else {
-            cookieArr.push(...[$.getdata('CookieJD'), $.getdata('CookieJD2')]);
+            cookieArr.push(...[$.getdata('CookieJD')
+                               //, $.getdata('CookieJD2')
+                              ]);
         }
 
         $.log(`共${cookieArr.length}个京东账号\n`);
