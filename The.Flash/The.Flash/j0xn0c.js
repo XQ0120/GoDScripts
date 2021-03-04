@@ -164,7 +164,7 @@ let assistUserShareCode = 0; // 随机助力用户 share code
         return;
     }
 
-    for (let i = 0; i < cookieArr.length; i++) {
+    for (let i = 0; i < 1; i++) {
         if (cookieArr[i]) {
             currentCookie = cookieArr[i];
             $.UserName = decodeURIComponent(currentCookie.match(/pt_pin=(.+?);/) && currentCookie.match(/pt_pin=(.+?);/)[1])
