@@ -1,32 +1,10 @@
 {
   "id": "XQ.script.sub",
-  "name": "XQ自用Age174脚本订阅",
+  "name": "XQ自用-Age174订阅",
   "author": "@XQ",
   "icon": "https://avatars3.githubusercontent.com/u/52337422?s=460&u=0aa6057c2af304d742d20b3b865c34f2902ad5c1&v=4",
   "repo": "https://github.com/XQ0120",
   "apps": [{
-            "id": "wnb",
-            "name": "蜗牛吧",
-            "keys": ["wnburl", "wnbhd", "wnbbody"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "wnbsetting",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "wnbcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    }],
-            "repo": "https://raw.githubusercontent.com/age174/-/main/wnb.js",
-            "icons": ["https://ftp.bmp.ovh/imgs/2021/02/221a7d94eaa0dddf.jpeg", "https://ftp.bmp.ovh/imgs/2021/02/221a7d94eaa0dddf.jpeg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/wnb.js"
-    },{
             "id": "wnb",
             "name": "蜗牛吧",
             "keys": ["wnburl", "wnbhd", "wnbbody"],
