@@ -262,10 +262,6 @@
     "repo": "https://github.com/ZhiYi-N/Private-Script/blob/master/Scripts/pyq.js",
     "icons": ["https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/pyq-mini.png", "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/pyq.png"],
     "script": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/pyq.js"
-  }],
-    "repo": "https://github.com/ZhiYi-N/Private-Script/blob/master/Scripts/jxcollect.js",
-    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png","https://github.com/58xinian/icon/raw/master/jdgc.png"],
-    "script": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jxcollect.js"
+  }]
   }
- ]
-}
+ 
