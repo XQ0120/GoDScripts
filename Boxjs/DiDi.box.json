@@ -1,0 +1,21 @@
+{
+  "id": "DD.script.sub",
+  "name": "DD 自用脚本订阅",
+  "author": "@ztxtop",
+  "icon": "http://elf.static.maibaapp.com/content/ios-countdown/11891342/avatar/11591339654571.png",
+  "repo": "https://github.com/DD-D1/",
+  "apps": [{
+      "id": "联想智选Ck",
+      "name": "联想智选数据",
+      "keys": ["signinurlname","signinhdname","signinbdname"],
+      "descs_html": [
+        "联想智选签到"
+      ],
+      "author": "@DD",
+      "settings": [],
+      "repo": ["https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/B1332A0E-D31E-4682-9C28-5E9D68E56E22.png","https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/B1332A0E-D31E-4682-9C28-5E9D68E56E22.png"],
+      "script": "https://github.com/XQ0120/GoDScripts/raw/main/loonScripts/lxzxSign.js"
+    }
+    
+  ]
+}
