@@ -7,7 +7,7 @@
 "apps": [{
 "id": "",
 "name": "联想智选APP",
-"keys": [signinurlname,signinhdname,signinbdname],
+"keys": ["signinurlname","signinhdname","signinbdname"],
 "author": "@dd"
 
 ],
